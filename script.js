@@ -1,22 +1,16 @@
-let sayi1 = 20;
-if (sayi1 > 10 && sayi1 < 50) {
-  console.log("sayi 10 - 50 arasındadır");
-} else {
-  console.log("10 - 50 arasında değildir");
+let url = "https://acibademtech.udemy.com/";
+let kursAdi = "komple uygulamalı web geliştirme";
+let sonuc;
+sonuc = url.length;
+sonuc = kursAdi.split("").length;
+sonuc = url.startsWith("htpps");
+if (sonuc){
+    console.log("evet baslıyor");
+
 }
-let sayi = 21;
-if (sayi % 2 == 1 && sayi > 0) {
-  console.log("sayi pozitif tek sayıdır");
+if(kursAdi.indexOf("eğitimi")){
+    console.log("evet var");
 }
-let x = 10;
-y = 20;
-z = 30;
-if (x > y && x > z) {
-  console.log("x en büyük sayı");
-}
-if (y>x && y>z){
-    console.log("y en büyük sayıdır");
-}
-if (z>x && z>y ){
-    console.log( "z en büyük sayıdır ");
+else{
+    console.log("hayır yok");
 }
