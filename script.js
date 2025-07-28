@@ -1,17 +1,22 @@
-let ogrenci1Ad = " muhammet";
-let ogrenci1Soyad = " kasımoğlu";
-
-let ogrenci1dogumTarihi = "2002";
-let ogrenci1matematik1 = 70;
-let ogrenci1matematik2 = 60;
-let ogrenci1matematik3 = 80;
-let ogrenci2Ad = " helin ";
-let ogrenci2Soyad = " kurt";
-let ogrenci2dogumTarihi = "2003";
-let ogrenci2matematik1 = 70;
-let ogrenci2matematik2 = 60;
-let ogrenci2matematik3 = 80;
-let ogrenci1yas = 2025 - parseIntogrenci1dogumTarihi;
-let ogrenci2yas = 2025 - parseIntogrenci2dogumTarihi;
-console.log(ogrenci1yas);
-console.log(ogrenci2yas);
+let sayi1 = 20;
+if (sayi1 > 10 && sayi1 < 50) {
+  console.log("sayi 10 - 50 arasındadır");
+} else {
+  console.log("10 - 50 arasında değildir");
+}
+let sayi = 21;
+if (sayi % 2 == 1 && sayi > 0) {
+  console.log("sayi pozitif tek sayıdır");
+}
+let x = 10;
+y = 20;
+z = 30;
+if (x > y && x > z) {
+  console.log("x en büyük sayı");
+}
+if (y>x && y>z){
+    console.log("y en büyük sayıdır");
+}
+if (z>x && z>y ){
+    console.log( "z en büyük sayıdır ");
+}
