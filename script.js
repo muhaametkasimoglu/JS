@@ -1,16 +1,13 @@
-let url = "https://acibademtech.udemy.com/";
-let kursAdi = "komple uygulamalı web geliştirme";
-let sonuc;
-sonuc = url.length;
-sonuc = kursAdi.split("").length;
-sonuc = url.startsWith("htpps");
-if (sonuc){
-    console.log("evet baslıyor");
+let urun1 = "ıphone 12";
+let urun2 = " ıphone13";
+let urun3 = " ıphone 14";
 
-}
-if(kursAdi.indexOf("eğitimi")){
-    console.log("evet var");
-}
-else{
-    console.log("hayır yok");
-}
+let urunler = ["ıphone 12", "ıphone 13", "ıphone 14"];
+let fiyatlar = [9000, 12000, 20000];
+let renkler = ["gold", "beyaz", "siyah"];
+console.log(urunler[0]);
+console.log(urunler[1]);
+console.log(urunler[2]);
+console.log(renkler);
+let kursAdi = "komple uygulamalı web geliştime";
+console.log(kursAdi[5]);
