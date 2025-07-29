@@ -1,9 +1,17 @@
-let toplam = 0;
-for (let i = 1; i <= 0; i++) {
-  toplam += i;
+function selamlama(msg) {
+  console.log(msg);
 }
-console.log(toplam);
-let sayilar = [1, 24, 5, 8, 4];
-for (let i = 0; i < 6; i++) {
-  console.log(sayilar[i]);
+selamlama();
+selamlama("selam");
+selamlama("iyi günler");
+function yasHesapla(dogumYili) {
+  console.log(new Date().getFullYear() - dogumYili);
+}
+yasHesapla(1985);
+yasHesapla(1987);
+function emekliligeKacyilKaldi(dogumYili, isim) {
+  let yas = yasHesapla(dogumYili);
+  if (yas > 65) {
+    console.log(emekliligeKacyilKaldi);
+  }
 }
