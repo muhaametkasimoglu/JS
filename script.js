@@ -1,17 +1,6 @@
-function selamlama(msg) {
-  console.log(msg);
-}
-selamlama();
-selamlama("selam");
-selamlama("iyi günler");
-function yasHesapla(dogumYili) {
-  console.log(new Date().getFullYear() - dogumYili);
-}
-yasHesapla(1985);
-yasHesapla(1987);
-function emekliligeKacyilKaldi(dogumYili, isim) {
-  let yas = yasHesapla(dogumYili);
-  if (yas > 65) {
-    console.log(emekliligeKacyilKaldi);
-  }
-}
+//DOM, web sayfasının tarayıcı tarafından nesne (object) olarak temsil edilmiş halidir.
+
+//Sayfadaki her etiket (element), her metin, hatta boşluklar bile DOM'da birer düğüm (node) olarak yer alır.
+
+//JavaScript sayesinde bu öğelere erişebilir, değiştirebilir, silebilir veya yenilerini ekleyebilirsin.
+
